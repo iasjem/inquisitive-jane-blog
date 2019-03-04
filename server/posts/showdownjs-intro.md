@@ -1,6 +1,6 @@
 # From MD to HTML using Showdown JS
 
-![Showdown JS logo](../../public/img/showdown-logo.png)
+![Showdown JS logo](/img/showdown-logo.png)
 
 [Showdown JS](http://showdownjs.com/) is a free Markdown to HTML converter library based on the original works of [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), the creator of [Markdown](https://daringfireball.net/projects/markdown/). There are a lot of libraries that does the same job but Showdown does it the simplest!
 

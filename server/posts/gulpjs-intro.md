@@ -1,6 +1,6 @@
 # An Awesome Treat from Gulp JS
 
-![gulp logo](../../public/img/gulp-logo.jpg)
+![gulp logo](/img/gulp-logo.jpg)
 
 [Gulp JS](https://gulpjs.com/) is a javascript task runner that is built to automate and enhance development workflow efficiently. With this cool toolkit, you will be able to do the following:
 - Compress your stylesheets and scripts
