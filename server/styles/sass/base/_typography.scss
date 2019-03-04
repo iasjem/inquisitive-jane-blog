@@ -1,0 +1,69 @@
+body { 
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: $default__link-color;
+
+    &:hover { color: $a-hover--color; }
+}
+
+.header--main { @extend %header--main--colors; }
+
+.footer--main {
+    @extend %footer--main--colors;
+    text-align: center;    
+}
+
+.a__brand-name {
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    color: $a__brand-name--color;
+    transition: color .3s ease-out;
+
+    &:hover { color: $a__brand-name-hover--color; }
+}
+
+.nav__items {
+    a {
+        font-weight: bold;
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        color: $a__nav-items--color;
+        border-bottom: 3px solid transparent;
+        transition: border-bottom .3s ease-out;
+
+        &:hover {
+            @extend %a__nav-items--hover-colors;
+        }
+    }
+}
+
+.section__post-box {
+    figcaption {
+        line-height: 2.5rem;
+
+        h2 { font-size: 2rem; }
+        p { font-size: 1.5rem; }
+    }
+}
+
+.section__error {
+    text-align: center;
+
+    h1 { font-size: 6rem; }
+    p { font-size: 3rem; }
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.btn__read {
+    @extend %btn__read--colors;
+}
