@@ -1,20 +1,44 @@
-%header--main--colors {
+%body__colors--default {
+    background-color: #F8F1E5;
+    color: #000;
+}
+
+%header__main__colors--default {
     background-color: #426E86;
     color: #F8F1E5; 
 }
 
-%footer--main--colors {
+%footer__main__colors--default {
     background-color: #426E86;
     color: #F8F1E5;
 }
 
-%btn__read--colors {
+%btn__read__colors--default {
     background-color: #426E86;
     color: #F8F1E5;
 }
 
-%a__nav-items--hover-colors {
-    font-weight: 400;
-    color: $a-hover--color;
+%a__nav-items__border--hover {
     border-bottom: 3px solid #F9BA32;
+}
+
+%code__colors--default {
+    background-color: #F0F0F0;
+    color: #880000; 
+}
+
+%pre-code__colors--default {
+    background-color: #F0F0F0;
+    color: #444; 
+}
+
+%clearfix {
+    *zoom: 1;
+    &:before, &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
 }

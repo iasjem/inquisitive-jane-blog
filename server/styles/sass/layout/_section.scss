@@ -17,11 +17,34 @@
     figcaption { padding: 1rem; }
 }
 
+.section__about, .section__post {
+    padding: 1rem;
+
+    h1, h2 { margin-bottom: 1.5rem; }
+
+    p { margin: 1.5rem 0; }
+
+    ul {
+        margin-left: 2rem; 
+
+        li { margin-bottom: .5rem; }
+    }
+    
+    code { padding: .25rem; }
+
+    pre { 
+        code { padding: 1.5rem; }
+    }
+    
+    img { width: 100%; }
+}
+
 @media screen and (max-width: 767.98px) {
     .section--box {
         flex-flow: column nowrap;
         justify-content: center;
     }
+
     .section__post-box {
         flex-basis: auto;
         margin-bottom: 2rem;
