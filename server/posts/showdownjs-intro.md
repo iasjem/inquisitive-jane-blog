@@ -2,9 +2,7 @@
 
 ![Showdown JS logo](/img/showdown-logo.png)
 
-[Showdown JS](http://showdownjs.com/) is a free Markdown to HTML converter library based on the original works of [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), the creator of [Markdown](https://daringfireball.net/projects/markdown/). There are a lot of libraries that does the same job but Showdown does it the simplest!
-
-To show what I mean, we are going to start with a [Glitch starter project](https://glitch.com/edit/#!/awesome-showdown-starter?path=package.json:10:26). We are going to convert a Markdown file into an HTML.
+[Showdown JS](http://showdownjs.com/) is a free Markdown to HTML converter library based on the original works of [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), the creator of [Markdown](https://daringfireball.net/projects/markdown/). There are a lot of libraries that does the same job but Showdown does it the simplest! To show what I mean, we are going to start with a [Glitch starter project](https://glitch.com/edit/#!/awesome-showdown-starter?path=package.json:10:26). We are going to convert a Markdown file into an HTML.
 
 
 ## Tools to use
@@ -41,7 +39,7 @@ Before we get to the good stuff, we need to identify what each dependency does t
 Let's dive in! Open the `app.js` file to start with coding. We start with assigning a new `Converter()` function:
 
 ```javascript
-    const converter = new showdown.Converter();
+const converter = new showdown.Converter();
 ```
 
 The function we created is used to set and get options in order for us to meet our goal and also, customize the default behavior set in Showdown. Let's set some options for our heading inside of `intro.md`.There are opther options listen in [Showdown's Github Repository](https://github.com/showdownjs/showdown):
