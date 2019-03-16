@@ -69,13 +69,7 @@ a {
     ul { 
         li { line-height: 2rem; }
     }
-    
-    code { @extend %code__colors--default; }
-
-    pre { 
-        code { @extend %pre-code__colors--default; }
-    }
-}
+} 
 
 .btn {
     @include font-size(20px);

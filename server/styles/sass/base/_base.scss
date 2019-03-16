@@ -4,7 +4,7 @@
     box-sizing: inherit;
 }
 
-html { @include font-size(11px); }
+html { @include font-size(16px); }
 
 body { box-sizing: border-box; }
 
@@ -16,19 +16,11 @@ body { box-sizing: border-box; }
     background-color: $container__bgcolor--default;
 }
 
-@media (min-width: 1200px) { 
-    html { @include font-size(14px); }
+@media (min-width: 1140px) { 
+    html { @include font-size(18px); }
 }
 
-@media screen and (max-width: 991.98px) {
-    html { @include font-size(12px); }
-}
-
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 768px) {
     html { @include font-size(10px); }
-}
-
-@media screen and (max-width: 575.98px) {
-    html { @include font-size(9px); }
     .container { width: 100%; }
 }

@@ -5,7 +5,7 @@
 }
 
 .section__post-box {
-    flex-basis: 45%;
+    flex-basis: 48%;
     
     figure {
         max-width: auto;
@@ -47,6 +47,6 @@
 
     .section__post-box {
         flex-basis: auto;
-        margin-bottom: 2rem;
-    }
+        margin: 4rem 0;
+    } 
 }

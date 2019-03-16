@@ -18,14 +18,6 @@ body {
 .nav__items a:hover {
   border-bottom: 3px solid #F9BA32; }
 
-.section__about code, .section__post code {
-  background-color: #F0F0F0;
-  color: #880000; }
-
-.section__about pre code, .section__post pre code {
-  background-color: #F0F0F0;
-  color: #444; }
-
 .nav {
   *zoom: 1; }
   .nav:before, .nav:after {
@@ -40,8 +32,8 @@ body {
   box-sizing: inherit; }
 
 html {
-  font-size: 11px;
-  font-size: 0.6875rem; }
+  font-size: 16px;
+  font-size: 1rem; }
 
 body {
   box-sizing: border-box; }
@@ -53,25 +45,15 @@ body {
   padding: 2rem;
   background-color: #fff; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   html {
-    font-size: 14px;
-    font-size: 0.875rem; } }
+    font-size: 18px;
+    font-size: 1.125rem; } }
 
-@media screen and (max-width: 991.98px) {
-  html {
-    font-size: 12px;
-    font-size: 0.75rem; } }
-
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 10px;
-    font-size: 0.625rem; } }
-
-@media screen and (max-width: 575.98px) {
-  html {
-    font-size: 9px;
-    font-size: 0.5625rem; }
+    font-size: 0.625rem; }
   .container {
     width: 100%; } }
 
@@ -200,7 +182,7 @@ a {
   justify-content: space-between; }
 
 .section__post-box {
-  flex-basis: 45%; }
+  flex-basis: 48%; }
   .section__post-box figure {
     max-width: auto;
     height: auto; }
@@ -232,4 +214,4 @@ a {
     justify-content: center; }
   .section__post-box {
     flex-basis: auto;
-    margin-bottom: 2rem; } }
+    margin: 4rem 0; } }
