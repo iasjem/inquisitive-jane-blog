@@ -66,4 +66,8 @@ gulp.task('minify:js', function() {
     });
 });
 
-gulp.task('default', gulp.series('clean:build', 'build:css', gulp.parallel('minify:css', 'minify:js')));
+gulp.task('watch', function(){
+    gulp.watch('server/styles/**/*.scss', gulp.series('clean:build', 'build:css', gulp.parallel('minify:css', 'minify:js'))); 
+});
+
+gulp.task('default', gulp.series('clean:build', 'build:css', gulp.parallel('minify:css', 'minify:js'))); 

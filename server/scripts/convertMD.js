@@ -8,16 +8,15 @@ showdown.setFlavor('github');
 
 converter.setOption('noHeaderId', 'true');
 converter.setOption('ghCodeBlocks', 'true');
-converter.setOption('tables', 'true');
-converter.setOption('tasklists', 'true');
 converter.setOption('simpleLineBreaks', 'true');
+converter.setOption('openLinksInNewWindow', 'true');
 converter.setOption('requireSpaceBeforeHeadingText', 'true');
 converter.setOption('underline', 'true');
 converter.setOption('emoji', 'true');   
 
 converter.getOptions();  
 
-const html = (post) => {
+const convertMD = (post) => {
   try {
     const md = fs.readFileSync(`${ post }.md`, 'utf-8');
     return pretty(converter.makeHtml(md));    
@@ -26,4 +25,4 @@ const html = (post) => {
   }
 };
 
-exports.module = { html }
+module.exports = { convertMD }

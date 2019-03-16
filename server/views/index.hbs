@@ -1,3 +1,18 @@
 {{> header}}
-    <h1>Hello World!</h1>
+    <div class="container">
+        <section class="section section--box">
+            {{#each content}}
+                <div class="section__post-box">
+                    <figure>
+                        <img src="{{ image }}" alt="{{ imageAlt }}" />
+                    </figure>
+                    <figcaption>
+                        <h2>{{ title }}</h2>
+                        <p>{{ overview }}</p>
+                    </figcaption>
+                    <a href="/posts/{{ filename }}" class="btn btn__read">Continue Reading</a>
+                </div> 
+            {{/each}}                
+        </section>
+    </div>
 {{> footer}}

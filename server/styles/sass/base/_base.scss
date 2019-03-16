@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html { @include font-size(16px); }
+
+body { box-sizing: border-box; }
+
+.container { 
+    min-height: calc(100vh - 60px); 
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: $container__bgcolor--default;
+}
+
+@media (min-width: 1140px) { 
+    html { @include font-size(18px); }
+}
+
+@media screen and (max-width: 768px) {
+    html { @include font-size(10px); }
+    .container { width: 100%; }
+}

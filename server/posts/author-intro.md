@@ -2,9 +2,7 @@
 
 ![Javascript Codes](https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1500&q=80)
 
-The goal is to share possibilities of improvement in web development by discovering new trends, ideas, technologies and techniques from different sources and through projects.  
-
-We learn everyday by doing and understanding. 
+The goal is to share possibilities of improvement in web development by discovering new trends, ideas, technologies and techniques from different sources and through projects. We learn everyday by doing and understanding. 
 
 
 ## What's with the name?

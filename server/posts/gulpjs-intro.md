@@ -1,6 +1,6 @@
 # An Awesome Treat from Gulp JS
 
-![gulp logo](../../public/img/gulp-logo.jpg)
+![gulp logo](/img/gulp-logo.jpg)
 
 [Gulp JS](https://gulpjs.com/) is a javascript task runner that is built to automate and enhance development workflow efficiently. With this cool toolkit, you will be able to do the following:
 - Compress your stylesheets and scripts
@@ -48,6 +48,7 @@ const gulp = require('gulp'),
 ```
 
 Before we proceed to the good stuff, let me first explain what each of the dependencies are for:
+
 - `gulp` - We all know what this is already. This our JS task runner as mentioned above
 - `gulp-concat` - We will use this later to rename the newly created file being compiled and compressed
 - `del` - This for removing folders or files to ensure a clean build
@@ -92,7 +93,7 @@ gulp.task('build:css', function() {
     return pump([
         // find the source first
         gulp.src(path.build.sass()),
-        // Compule Sass then...
+        // Compile Sass then...
         sass.sync(), 
         // Rename new file to...
         concat('style.css'), 
@@ -130,7 +131,7 @@ gulp.task('default', gulp.series('clean:build', 'build:css', 'minify:css'));
 
 Once `gulpfile.js` is saved, we can now return to our terminal and type `gulp` to see this:
 
-```npm
+```bash
 $ gulp
 [05:48:48] Using gulpfile ~/gulpfile.js
 [05:48:48] Starting 'default'...
