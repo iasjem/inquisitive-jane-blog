@@ -10,7 +10,7 @@ body { box-sizing: border-box; }
 
 .container { 
     min-height: calc(100vh - 60px); 
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 2rem;
     background-color: $container__bgcolor--default;
@@ -18,9 +18,18 @@ body { box-sizing: border-box; }
 
 @media (min-width: 1140px) { 
     html { @include font-size(18px); }
+    .wrapper {
+        width: 1026px; 
+        margin: 0 auto;
+    }    
 }
 
 @media screen and (max-width: 768px) {
-    html { @include font-size(10px); }
+    html { @include font-size(14px); }
     .container { width: 100%; }
+}
+
+@media screen and (max-width: 480px) {
+    html { @include font-size(12px); }
+    
 }
