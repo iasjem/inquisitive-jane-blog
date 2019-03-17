@@ -2,3 +2,9 @@
     display: block;
     padding: 1rem;
 }
+
+.btn__read { 
+    @extend %btn__read__colors--default; 
+    @include transition(color .3s ease-out);
+    &:hover { @extend %btn__read__colors--hover; }
+}

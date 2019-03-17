@@ -14,8 +14,12 @@
 }
 
 %btn__read__colors--default {
-    background-color: #426E86;
-    color: #F8F1E5;
+    background-color: #fff;
+    color: #333;
+}
+
+%btn__read__colors--hover {
+    color: #000;
 }
 
 %a__nav-items__border--hover {

@@ -64,22 +64,16 @@ a {
 
     h1, h2 { color: $headings__color--default; }
 
-    p { line-height: 2rem; }
-
-    ul { 
-        li { line-height: 2rem; }
+    p { 
+        line-height: 1.25rem; 
+        code { color: #880000; }           
     }
+
+    ul { li { line-height: 1.5rem; } }
 } 
 
 .btn {
-    @include font-size(20px);
+    @include font-size(18px);
     font-weight: bold;
     text-align: center;    
-}
-
-.btn__read { 
-    @extend %btn__read__colors--default; 
-    @include transition(color .3s ease-out);
-
-    &:hover { color: $btn__read__colors--hover; }
 }
