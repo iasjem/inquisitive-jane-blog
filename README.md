@@ -10,6 +10,7 @@ Inspired by Medium and Dev.to community, this blog uses a Markdown converter JS 
 ### Libraries
   * [Express](https://expressjs.com/) - Creating web server
   * [Handlebars](https://handlebarsjs.com/) - Template view engine
+  * [Showdownjs](http://showdownjs.com/) - Markdown converter JS library
   * [Sass](https://sass-lang.com/) - CSS preprocessor
   * [Gulp.js](https://gulpjs.com/) - Compression of CSS and building Sass
 
